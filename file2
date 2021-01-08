@@ -1,0 +1,20 @@
+namespace vk
+{
+	class add
+	{
+		int a,b;
+		public:
+		void get(int x,int y)
+		{
+			a=x;
+			b=y;
+		}
+	void disp();
+	};
+void vk::add::disp()
+{
+	cout<<"\n Addition Is = "<<(a+b);
+}
+	
+}
+	
